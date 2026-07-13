@@ -1,7 +1,7 @@
 import mongoose from "mongoose";   
  
 const inventoryLogSchema = new mongoose.Schema(  
-  {
+  {  
     shopId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Shop",
