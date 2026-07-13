@@ -1,5 +1,5 @@
 import mongoose from "mongoose";   
-
+ 
 const inventoryLogSchema = new mongoose.Schema(
   {
     shopId: {
