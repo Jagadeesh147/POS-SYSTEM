@@ -1,6 +1,6 @@
 import mongoose from "mongoose";  
      
-const invoiceShareSchema = new mongoose.Schema(    
+const invoiceShareSchema = new mongoose.Schema(      
   {
     shopId: {
       type: mongoose.Schema.Types.ObjectId,
